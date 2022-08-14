@@ -1,19 +1,10 @@
-# MiniCord
-<p align="center">
-  <img width="150" height="100" src="https://github.com/ThalKod/discord-clone/blob/master/MiniCord.png"> </br>
-  A "Discord clone" with Socket.io, Node.js &amp; MongoDB... 
-</p>
-
-![Profile MiniCord](https://github.com/ThalKod/discord-clone/blob/master/Profile_Screen.png)
-
-
-# :floppy_disk: Installation
-
+# XCord
+A direct Minicord clone
 ```bash
 # clone the repo
-$ git clone https://github.com/ThalKod/discord-clone.git
+$ git clone https://github.com/PartehDev/xcord.git
 
-$ cd discord-clone
+$ cd xcord
 
 # install the node modules...
 $ npm install
@@ -23,7 +14,7 @@ $ npm start
 ```
 Make sure you start mongodb or correct env var...
 ```js
-config.dbURL = process.env.DATABASEURL || "mongodb://localhost/minicord";
+config.dbURL = process.env.DATABASEURL || "mongodb://localhost/xcord";
 ```
 
 
